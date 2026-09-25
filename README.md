@@ -489,62 +489,80 @@ La decisión debe partir de los requisitos y operaciones predominantes.
 1.  ¿Qué característica fundamental define a `Set`?
 
 Respuesta: No permite elementos duplicados.
+
 2.  ¿Permite `HashSet` elementos duplicados?
 
 Respuesta: No.
+
 3.  ¿Permite `TreeSet` elementos duplicados?
 
 Respuesta: No.
+
 4.  ¿Qué devuelve `add()` cuando el elemento ya existe?
 
 Respuesta: `false`.
+
 5.  ¿Por qué `HashSet` no garantiza un orden de iteración?
 
 Respuesta: Porque usa hashing y no mantiene un orden.
+
 6.  ¿Qué tipo de orden mantiene `TreeSet`?
 
 Respuesta: Orden natural o por `Comparator`.
+
 7.  ¿Cuál es la complejidad promedio de `HashSet.contains()`?
 
 Respuesta: O(1) promedio.
+
 8.  ¿Cuál es la complejidad de `TreeSet.contains()`?
 
 Respuesta: O(log n).
+
 9.  ¿Por qué `TreeSet` tiene un costo adicional respecto a `HashSet`?
 
 Respuesta: Porque mantiene los elementos ordenados.
+
 10. ¿Qué ventaja proporciona `TreeSet.first()`?
 
 Respuesta: Obtiene el elemento mínimo.
+
 11. ¿Qué diferencia existe entre `lower()` y `floor()`?
 
 Respuesta: `lower()` es menor estricto; `floor()` es menor o igual.
+
 12. ¿Qué diferencia existe entre `higher()` y `ceiling()`?
 
 Respuesta: `higher()` es mayor estricto; `ceiling()` es mayor o igual.
+
 13. ¿Para qué sirve `subSet()`?
 
 Respuesta: Para obtener un rango de elementos.
+
 14. ¿Qué papel desempeña un `Comparator` en `TreeSet`?
 
 Respuesta: Define el criterio de ordenamiento.
+
 15. ¿Cómo se implementa una unión utilizando `Set`?
 
 Respuesta: Con `addAll()`.
+
 16. ¿Cómo se implementa una intersección?
 
 Respuesta: Con `retainAll()`.
+
 17. ¿Cómo se implementa una diferencia?
 
 Respuesta: Con `removeAll()`.
+
 18. ¿En qué escenario utilizaría `HashSet`?
 
 Respuesta: Cuando se necesita unicidad y búsquedas rápidas sin orden.
+
 19. ¿En qué escenario utilizaría `TreeSet`?
 
 Respuesta: Cuando se necesita unicidad y elementos ordenados.
-20. ¿Por qué es conveniente declarar `Set<String>` en lugar de
-    `HashSet<String>` cuando solo se necesitan operaciones de `Set`?
+
+20. ¿Por qué es conveniente declarar `Set<String>` en lugar de `HashSet<String>` cuando solo se necesitan operaciones de `Set`?
 
 Respuesta: Porque permite usar distintas implementaciones de `Set`.
 
